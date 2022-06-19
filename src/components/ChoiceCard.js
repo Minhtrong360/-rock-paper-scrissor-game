@@ -1,11 +1,11 @@
 import React from "react";
 
 function ChoiceCard({ gameItem, handleGameItemChange }) {
-  const { url, name } = gameItem;
+  const { url, name } = "Your code here";
   return (
     <img
       onClick={() => {
-        handleGameItemChange(gameItem);
+        "Your code here";
       }}
       className="choice"
       src={url}
